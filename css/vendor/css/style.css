@@ -1,0 +1,522 @@
+
+/* hero */
+
+#hero {
+      width: 100%;
+      height: 100vh;
+      padding-top: 10rem;
+      position: relative;
+     
+    }
+
+#hero h1 {
+      margin-bottom: 20px;
+      font-size: 64px;
+      font-weight:bold;
+      line-height: 56px;
+      color: #45505b;
+
+    }
+
+    #hero p {
+      color: #45505b;
+      margin: 15px 0 0 0;
+      font-size: 26px;
+      font-family: "Poppins", sans-serif;
+      margin-bottom:10px ;
+      margin-left: 5px;
+    }
+    
+    #hero p span {
+      color: rgb(177, 180, 147);;
+      letter-spacing: 1px;
+    }
+    @media (max-width: 992px) {
+      #hero {
+        text-align: center;
+      }
+      #hero h1 {
+        font-size: 32px;
+        line-height: 36px;
+      }
+      #hero p {
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+/* akhir hero */
+
+    /* quotes */
+    #quotes .jumbotron {
+      background-color:  rgb(177, 180, 147);
+      height: 100px;
+      text-align: center;
+    }
+
+    #quotes .jumbotron p {
+      font-size: 20px;
+      margin-top: 38px;
+      font-style: italic;
+      color: white;
+      /* color: rgb(165, 165, 165); */
+    }
+
+    @media (max-width : 922px) {
+      #quotes .jumbotron {
+        height: 150px;
+        
+      }
+
+      #quotes .jumbotron p {
+        font-size: 16px;
+        padding: 0 40px;
+      }
+    }
+
+    /* akhir quotes */
+   
+/* about */
+    #about h2 {
+          margin-top:80px;
+          font-size: 38px;
+    }
+
+    #about .card  {
+      margin-top: 24%;
+    }
+
+#about p {
+      color:#a9aaae;
+      text-align: justify;
+}
+
+#about ul li strong {
+      padding-right: 25px;
+}
+
+#about ul li {
+  padding-bottom: 10px;
+  color: rgb(187, 189, 161);
+
+}
+#about ul li span {
+    font-weight: bold;
+}
+
+#about ul li strong {
+  color: black;
+  font-weight: bold;
+}
+
+#about ul li i{
+  color: rgb(31, 28, 28);
+  background-color: rgb(177, 180, 147);
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 60%;
+  font-size: 20px;
+}
+
+#about ul {
+      margin-top: 30px;
+      margin-bottom: 90px;
+}
+
+@media (max-width: 992px) {
+     #about .card {
+           display: none;
+           
+     }
+
+     #about .container h2 {
+       font-size: 25px;
+     }
+
+     #about .container  p {
+       padding: 0 10px;
+       font-size: 15px;
+     }
+
+     #about .iconli {
+       display: none;
+     }
+     
+    }
+
+/* akhir about */
+
+ /* skill */
+
+#skill {
+  background-color: rgb(248, 249, 250);
+}
+
+#skill h2 {
+  font-size: 38px;
+}
+
+#skill .card .fab {
+  font-size: 150px;
+  height: 180px;
+  margin-top: 50px;
+}
+
+@media (max-width: 992px) {
+  #skill .container h2 {
+    font-size: 25px;
+  }
+  #skill .card {
+    margin-left: 1rem;
+  }
+  
+}
+/* akhir skil */
+
+/* services */
+   
+
+#services {
+  background-color: white;
+  margin-bottom: 10rem;
+}
+
+#services .warna {
+  border-radius: 100%;
+  margin-left: 40px;
+  margin-top: -30px;
+  background-color:  rgb(177, 180, 147);
+  height: 90px;
+  width: 90px;
+}
+
+
+
+#services .warna .fab {
+  margin-top: 20px;
+  color: white;
+  font-size: 50px; 
+}
+
+#services .warna .fas {
+  margin-top: 25px;
+  color: white;
+  font-size: 40px; 
+}
+
+#services h4 {
+  margin-top: 20px;
+  text-align: justify;
+  margin-left: 40px;
+  font-weight: bold;
+}
+
+#services .card-body {
+  text-align: justify;
+  padding-left: 40px ;
+  padding-right: 40px;
+}
+#services .card:hover  {
+ 
+  background-color:  rgb(177, 180, 147);
+  color: white;
+  transition: 200ms;
+}
+
+
+
+#services .card:hover .warna {
+  background-color: white;
+  margin-left: 80px;
+  transition: 400ms;
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  
+}
+#services .card:hover .fab {
+  color: rgb(177, 180, 147);
+ 
+}
+
+#services .card:hover .fas {
+  color: rgb(177, 180, 147);
+ 
+}
+
+#services .card {
+  margin-top: 2rem;
+  height: 350px;
+  transition: 200ms;
+  
+}
+
+
+@media (max-width: 992px) {
+  
+  #services .card {
+    margin-left: 2rem;
+  }
+
+  #services .warna {
+    height: 90px;
+    width: 90px;
+  }
+
+  #services .warna .fab {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #services .warna .fas {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  
+ }
+
+
+ /* mini contact */
+
+#mini_contact .jumbotron {
+  background-color:  rgb(177, 180, 147);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#mini_contact  .head h3 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#mini_contact .btn {
+  color:  rgb(177, 180, 147);
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+#mini_contact .lead {
+  color: white  ;
+}
+
+@media (max-width : 992px) {
+  #mini_contact .jumbotron .head,.lead,.btn {
+    margin-left: 20px;
+  }
+}
+
+/* akhir mini_contact */
+
+/* our projeck */
+
+#ourprojek .container  {
+  margin-top: 10rem;
+  
+}
+
+#ourprojek .container h2  {
+  font-size: 38px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+#ourprojek .container p {
+color:#a9aaae;
+}
+
+#ourprojek .container .card {
+  border-radius: 5%;
+}
+
+#ourprojek .container .card img {
+  border-radius: 3%;
+  height: 250px;
+  transition: 500ms;
+}
+
+#ourprojek .container .card img:hover {
+  filter: brightness(40%);
+  transition: 500ms;
+}
+
+#ourprojek .container .card:hover p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: block;
+  font-size:  20px;
+  font-weight: bold;
+  transition: 500ms;
+  
+}
+
+#ourprojek .container .card p {
+  display: none;
+
+}
+
+#ourprojek .container .card p:hover img {
+  filter: brightness(40%);
+}
+
+@media (max-width:992px) {
+  
+
+    #ourprojek .container .card img {
+      height: 260px;
+      
+    }
+
+    #ourprojek .container .card p {
+      display: block;
+      margin: auto;
+      padding: 10px 0  ;
+      color: black;
+      font-weight: bold;
+    
+    }
+
+
+
+}
+
+/* akhir outprojek */
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+
+#testimoni {
+    background-color:  rgb(177, 180, 147);
+
+}
+
+#testimoni .container {
+  margin-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+#testimoni .container .judul-head {
+  color :white;
+  margin-top: 10rem;
+}
+
+#testimoni .container .text-head {
+ color: white;
+ margin-top: 20px;
+}
+
+#testimoni .container .card {
+  margin-top : 3rem;
+margin-bottom: 6rem;
+}
+
+#testimoni .container img {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+
+#testimoni .container .card-head p {
+  color:rgb(109, 103, 103);
+  font-weight: bold;
+} 
+
+#testimoni .container .card .card-body .card-text {
+  font-style: italic;
+  color: rgb(109, 103, 103);
+  margin-bottom: 10px;
+}
+
+/* akhir testimoni */
+
+#contact {
+  margin-top: 10rem;
+}
+
+#contact .judul-head {
+  font-weight: bold;
+
+}
+
+#contact .text-head {
+  color: #a9aaae;
+  margin-top: 2rem;
+}
+
+#contact form {
+  margin-top: 3rem;
+}
+
+#contact form .form-group {
+  margin-top: 20px;
+}
+
+#contact form input {
+  border: 2px solid rgb(177, 180, 147);
+  height: 3rem;
+}
+
+#contact textarea {
+  border: 2px solid rgb(177, 180, 147);
+  color: #828385;
+}
+
+#contact form .btn {
+  background-color: rgb(177, 180, 147);
+  margin-top :1rem;
+  color: white;
+  padding: 15px 25px;
+  font-weight: bold;
+}
+
+/* #contact form ul li h4 span  .fas {
+  color: white;
+  margin-right: 10px;
+  background-color: rgb(177, 180, 147);
+  border-radius: 50%;
+  font-size: 19px; 
+} */
+
+/* #contact form ul li h4 {
+  font-size: 17px;
+  
+}
+
+#contact form ul li .text {
+  margin-left: 40px;
+}
+
+@media (max-width : 992px) {
+  #contact form ul  {
+    display: none;
+  }
+} */
+
+
+/* footer */
+
+#footer {
+  background-color: rgb(35, 41, 49);
+  margin-top: 7rem;
+ 
+}
+
+#footer .container {
+  margin-top: 5rem;
+  height: 100px;
+  
+}
+
+#footer .container p {
+  color: white;
+  line-height: 100px;
+}
