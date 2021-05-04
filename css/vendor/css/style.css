@@ -253,11 +253,15 @@
 }
 
 
+
 @media (max-width: 992px) {
   
   #services .card {
     margin-left: 2rem;
+    height: 365px;
   }
+
+
 
   #services .warna {
     height: 90px;
